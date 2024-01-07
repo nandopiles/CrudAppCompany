@@ -77,7 +77,7 @@ Para corregir el examen, sigue estos simples pasos:
 Primero, necesitarás clonar este repositorio en tu máquina local. Puedes hacerlo ejecutando el siguiente comando en tu terminal:
 
 ```bash
-git clone https://github.com/nandopiles/fepilaexamendaw.git
+git clone https://github.com/nandopiles/CrudAppCompany.git
 ```
 ### 2. Iniciar el Servicio de Docker
 
@@ -91,7 +91,7 @@ Sitúate en el directorio de trabajo donde clonaste el repositorio, asegurándot
 docker-compose up
 ```
 
-Este comando iniciará los 3 contenedores enlazados definidos en el archivo docker-compose.yml.
+Este comando iniciará los 2 contenedores definidos en el arvhivo docker-compos.yml en los cuales está el docker de la aplicación y el docker de la base de datos MariaDb.
 
 ### 4. Verificar que los Contenedores Están en Ejecución
 
@@ -105,10 +105,8 @@ Comprueba que los contenedores están marcados como "running".
 
 ### 5. Acceder al Archivo index.php
 
-Después de asegurarte de que los contenedores están en ejecución, todo está listo para acceder al archivo index.php. En este caso, el archivo se encuentra en el directorio public/. Abre tu navegador de preferencia y navega a:
+Después de asegurarte de que los contenedores están en ejecución, todo está listo para poder entrar a la aplicación así que, sitúate en cualquier navegador y accederemos a nuestro:
 
-http://localhost/public/index.php
+localhost:8000
 
-¡Listo! Ahora puedes explorar y evaluar el contenido del archivo index.php dentro de los contenedores Docker.
-
-Está DURÍSIMO NN !!!!!
+¡Listo!
