@@ -1,6 +1,6 @@
-# README del Examen de 2º DAW - Ferran Piles Lablanca
+# CRUD Application - Ferran Piles Lablanca
 
-¡Bienvenido al README más basado del examen de 2º DAW hecho por Ferran Piles Lablanca!
+¡Bienvenido al README de la aplicación CRUD para una empresa por Ferran Piles Lablanca!
 
 ### Estructura de ficheros
 
